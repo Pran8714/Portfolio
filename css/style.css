@@ -1,0 +1,96 @@
+body {
+  background-color: whitesmoke;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightseagreen;
+  color: rgb(39, 31, 31);
+  height: 4vw;
+  font-size: 2vw;
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+} */
+.left {
+  margin-left: 3vw;
+}
+.right {
+  margin-right: 3vw;
+}
+
+.right ul {
+  display: flex;
+  justify-content: space-between;
+}
+.right ul li {
+  list-style: none;
+  margin: 2vw;
+}
+.right ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3vw;
+}
+nav ul li a:hover {
+  font-size: 1.05rem;
+}
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  height: 40vw;
+  width: 100%;
+}
+.left-section {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 50%;
+  height: 22vw;
+  font-size: 49px;
+ 
+  margin-top: 98px;
+}
+.button{
+    margin: 14px;
+    padding: 12px;
+
+}
+
+.left-section .btn{
+        
+    padding: 12px;
+    background: lightseagreen;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.seagreen{
+    color: lightseagreen;
+}
+#element{
+    color: rgb(15, 20, 20);
+}
+.right-section {
+  width:50% ;
+  height:22vw;
+  display: flex;
+}
+.right-section img{
+  margin-top: 80px;
+width: 86%;
+height: 30vw;
+padding-top: 54px;
+}
+

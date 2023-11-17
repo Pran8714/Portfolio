@@ -1,0 +1,72 @@
+#contact {
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+    width: 100%;
+
+}
+.contactDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four{
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+    background: url('../frequency-wave-7776034_1920.jpg') no-repeat center center/cover;
+
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5px;
+}
+
+
+.h-primary {
+    font-size: 28px;
+    padding: 12px;
+   
+
+}
+
+.h-secondary {
+    font-size: 1.8px;
+    padding: 12px;
+}
+
+.btn {
+    color: white;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.centre {
+    text-align: center;
+}
